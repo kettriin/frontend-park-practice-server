@@ -17,7 +17,7 @@ const server = http.createServer((req, res) => {
             res.end();
             return;
         }
-        res.write(indexFile);
+        res.write(file);
         res.end();
     });
 
