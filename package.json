@@ -1,0 +1,23 @@
+{
+  "name": "sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "DEBUG=server node server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kettriin/frontend-park-practice-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kettriin/frontend-park-practice-server/issues"
+  },
+  "homepage": "https://github.com/kettriin/frontend-park-practice-server#readme",
+  "dependencies": {
+    "debug": "^4.4.3"
+  }
+}
